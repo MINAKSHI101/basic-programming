@@ -20,6 +20,11 @@ int main(){
         }
         }
     
-        cout<< num<<" is a prime num";       
+        if(isprime){
+            cout<<num<<"  is a prime num";
+        }
+        else{
+            cout<<num<<"  is not a prime num";
+        }
     }
 }
